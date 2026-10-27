@@ -1,7 +1,8 @@
 # markryall/tap
 
-Homebrew casks for my projects.
+Homebrew formulae and casks for my projects.
 
 ```sh
+brew install markryall/tap/cardthing
 brew install --cask markryall/tap/font-mote-mono
 ```
