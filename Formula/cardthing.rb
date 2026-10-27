@@ -1,8 +1,9 @@
 class Cardthing < Formula
   desc "Simple, fast command-line tool for managing task cards"
   homepage "https://github.com/markryall/cardthing"
-  url "https://github.com/markryall/cardthing/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "eebf4409f67988a8100469c3ea9f2035481d47a99a6193b111533f8d1d0ba972"
+  url "https://github.com/markryall/cardthing/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7d97632aede285593eb22f030185504cf0760fedd86da81ed2106189b05f688f"
+  license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/markryall/cardthing.git", branch: "main"
 
   depends_on "rust" => :build
