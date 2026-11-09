@@ -1,8 +1,8 @@
 class WorldTxt < Formula
   desc "Cozy multiplayer text world: wander, chat, garden and craft on a shared island"
   homepage "https://github.com/markryall/world.txt"
-  url "https://github.com/markryall/world.txt/archive/refs/tags/v0.10.0.tar.gz"
-  sha256 "d4f7df8e839acf79f5e2871cd388cf030cef12bf8fe3d1cf7c5bf05e947e0622"
+  url "https://github.com/markryall/world.txt/archive/refs/tags/v0.11.0.tar.gz"
+  sha256 "79623cc8614f649edecd6977fd4312be813bfc86df09f3501b9343ba55e5815d"
   license "MIT"
   head "https://github.com/markryall/world.txt.git", branch: "main"
 
