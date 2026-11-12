@@ -1,25 +1,25 @@
 class VeryNormal < Formula
-  desc "A terminal typing tutor that makes a keyboard layout from your own typing and moves you to it from QWERTY a few keys at a time"
+  desc "A terminal typing tutor that makes a keyboard layout from your own typing and moves you to it from the layout you type on now, a few keys at a time"
   homepage "https://github.com/markryall/very-normal"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/very-normal/releases/download/v0.2.1/very-normal-aarch64-apple-darwin.tar.xz"
-      sha256 "5c4ec0a0d9119c71274a7425749d15a2d32cb3a97dad89e7cd50a26c13ca30dc"
+      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-aarch64-apple-darwin.tar.xz"
+      sha256 "00ed79114e6a2305d8ac540e5ad3dcd91487bdfd0637af4721298da5bd58a40d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/very-normal/releases/download/v0.2.1/very-normal-x86_64-apple-darwin.tar.xz"
-      sha256 "334dfcc24c6f83ce54d8e87b0bd1377dfb6970132b83b8ea2d43dbdbe33b9d84"
+      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-x86_64-apple-darwin.tar.xz"
+      sha256 "fde774d09da82fde4de8bec94e8b1ba2b1a63bc64d25d4ea6f3e0d3a35ee5475"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/very-normal/releases/download/v0.2.1/very-normal-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3db2b0e198f8d2a597dd4157ef9d33bd85518b5817fa2ae423bb1a42552cd397"
+      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "94cb204739da8ca37e953e32192d7bdcaf5e3057333bc5329959971d0ad95c4d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/very-normal/releases/download/v0.2.1/very-normal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "08368370ad8e005954aa8c7b98d62b5dc4ba445b20fccef740b01edae8e88d6a"
+      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b5e7a38945785ae28ec2f77f4c441dd84678820d041359ee062738841cad0ae3"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
