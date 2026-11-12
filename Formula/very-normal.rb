@@ -1,8 +1,8 @@
 class VeryNormal < Formula
-  desc "Typing tutor that moves your keyboard to a new layout a few keys at a time"
+  desc "Typing tutor that makes a layout from your typing and moves you to it"
   homepage "https://github.com/markryall/very-normal"
-  url "https://github.com/markryall/very-normal/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0c178e3286461785d0e9c0fa591c3bcc3eddc49b49c675c68f4a8d69a7c8479b"
+  url "https://github.com/markryall/very-normal/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "6b844a23b406ff260fa8cf0d6fec884485da2bb8f083c1484f799a33691f2d1f"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/markryall/very-normal.git", branch: "main"
 
