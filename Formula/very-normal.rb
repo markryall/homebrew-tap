@@ -1,25 +1,25 @@
 class VeryNormal < Formula
   desc "A terminal typing tutor that makes a keyboard layout from your own typing and moves you to it from the layout you type on now, a few keys at a time"
   homepage "https://github.com/markryall/very-normal"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-aarch64-apple-darwin.tar.xz"
-      sha256 "00ed79114e6a2305d8ac540e5ad3dcd91487bdfd0637af4721298da5bd58a40d"
+      url "https://github.com/markryall/very-normal/releases/download/v0.4.0/very-normal-aarch64-apple-darwin.tar.xz"
+      sha256 "be78ac1f4ec0a33e907b03f7278e56e2aeed0bbb11bf795712963b5af593228b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-x86_64-apple-darwin.tar.xz"
-      sha256 "fde774d09da82fde4de8bec94e8b1ba2b1a63bc64d25d4ea6f3e0d3a35ee5475"
+      url "https://github.com/markryall/very-normal/releases/download/v0.4.0/very-normal-x86_64-apple-darwin.tar.xz"
+      sha256 "3bca6f8bef7d832b4f15903d3404822df9e73c1d3aefd4bd028961e9528e1c28"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "94cb204739da8ca37e953e32192d7bdcaf5e3057333bc5329959971d0ad95c4d"
+      url "https://github.com/markryall/very-normal/releases/download/v0.4.0/very-normal-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5cb673654bae820cd73090232cdea99954ea7fd3da170a8dcf0ff4d3db75cddf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/very-normal/releases/download/v0.3.0/very-normal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b5e7a38945785ae28ec2f77f4c441dd84678820d041359ee062738841cad0ae3"
+      url "https://github.com/markryall/very-normal/releases/download/v0.4.0/very-normal-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e3b0aea17bcd8c47a2f0813d669f350fd3f4b7f15927bdd9e236d49e39f07341"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
